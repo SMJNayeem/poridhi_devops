@@ -12,25 +12,25 @@
 
 ### sudo docker network create --subnet 172.18.0.0/16 vxlan-net
 
-![Creating Subnet by Docker Network](/images/img-1-create-docker-network.png)
+![Creating Subnet by Docker Network](images/img-1-create-docker-network.png)
 
 <p align="center">Fig: Creating Subnet by Docker Network</p>
 
 ### ip a
 
-![Check the new Interface](/images/img-1-ip-a.png)
+![Check the new Interface](images/img-1-ip-a.png)
 
 <p align="center">Fig: Check the new Interface</p>
 
 ### sudo docker run -d --net vxlan-net --ip 172.18.0.11 ubuntu sleep 3000
 
-![Creating Docker Container and assigning Static IP](/images/img-1-create-docker-container.png)
+![Creating Docker Container and assigning Static IP](images/img-1-create-docker-container.png)
 
 <p align="center">Fig: Creating Docker Container and assigning Static IP</p>
 
 ### sudo docker ps
 
-![Check Container List](/assets/images/img-1-docker-ps.png)
+![Check Container List](images/img-1-docker-ps.png)
 
 <p align="center">Fig: Check Container List</p>
 
@@ -66,25 +66,25 @@
 
 ### sudo docker network create --subnet 172.18.0.0/16 vxlan-net
 
-![Creating Subnet by Docker Network](/images/img-2-create-docker-network.png)
+![Creating Subnet by Docker Network](images/img-2-create-docker-network.png)
 
 <p align="center">Fig: Creating Subnet by Docker Network</p>
 
 ### ip a
 
-![Check the new Interface](/images/img-2-ip-a.png)
+![Check the new Interface](images/img-2-ip-a.png)
 
 <p align="center">Fig: Check the new Interface</p>
 
 ### sudo docker run -d --net vxlan-net --ip 172.18.0.12 ubuntu sleep 3000
 
-![Creating Docker Container and assigning Static IP](/images/img-2-create-docker-container.png)
+![Creating Docker Container and assigning Static IP](images/img-2-create-docker-container.png)
 
 <p align="center">Fig: Creating Docker Container and assigning Static IP</p>
 
 ### sudo docker ps
 
-![Check Container List](/assets/images/img-2-docker-ps.png)
+![Check Container List](images/img-2-docker-ps.png)
 
 <p align="center">Fig: Check Container List</p>
 
@@ -112,7 +112,7 @@
 
 ### ping 172.31.81.94
 
-![Check if PING Works](/images/img-1-ping.png)
+![Check if PING Works](images/img-1-ping.png)
 
 <p align="center">Fig: Check if PING Works</p>
 
@@ -120,6 +120,6 @@
 
 ### ping 172.31.81.94
 
-![Check if PING Works](/images/img-2-ping.png)
+![Check if PING Works](images/img-2-ping.png)
 
 <p align="center">Fig: Check if PING Works</p>
